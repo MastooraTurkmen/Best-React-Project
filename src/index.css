@@ -445,7 +445,7 @@ nav {
 
 /* section 4 right parts */
 .section-4-right {
-  width: 80vw;
+  /* width: 80vw; */
   background-color: #ECF4FD;
   height: 100vh;
 }
