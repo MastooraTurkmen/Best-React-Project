@@ -445,7 +445,7 @@ nav {
 
 /* section 4 right parts */
 .section-4-right {
-  /* width: 80vw; */
+  width: 80vw;
   background-color: #ECF4FD;
   height: 100vh;
 }
@@ -1155,6 +1155,7 @@ textarea:focus,
 
   .section-4-right-container {
     margin-right: 3rem;
+    /* width: unset; */
   }
 
   /* section 5 or 5th page */
@@ -1633,6 +1634,10 @@ textarea:focus,
   }
 
   /* section 4 or 4th page */
+  .section-4-right {
+    max-width: 80vw;
+  }
+
   .section-4-right-title {
     font-size: 1.9rem !important;
   }
