@@ -1,5 +1,7 @@
 ## React Project
 
+[Live](https://my-best-react-project.netlify.app/)
+
 #### CRA Fix
 
 ```
