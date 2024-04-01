@@ -1779,6 +1779,12 @@ textarea:focus,
 /* from section 3 to section 5 mobile 550px */
 
 @media screen and (max-width: 550px) {
+
+  .section-8-img2,
+  .section-8-img1 {
+    display: none;
+  }
+
   body {
     overflow-x: hidden;
   }
