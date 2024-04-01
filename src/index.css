@@ -1105,6 +1105,10 @@ textarea:focus,
 
 @media screen and (max-width: 1300px) {
 
+  body {
+    overflow-x: hidden;
+  }
+
   .about-company,
   .about-us {
     padding: 2em;
@@ -1286,6 +1290,10 @@ textarea:focus,
 }
 
 @media screen and (max-width: 1050px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .nav-header img {
     width: 30px;
   }
@@ -1547,6 +1555,10 @@ textarea:focus,
 /* from section 3 to section 5 mobile 750px */
 
 @media screen and (max-width: 750px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .about-company {
     background-position-x: -100px;
   }
@@ -1767,6 +1779,9 @@ textarea:focus,
 /* from section 3 to section 5 mobile 550px */
 
 @media screen and (max-width: 550px) {
+  body {
+    overflow-x: hidden;
+  }
 
   .about {
     flex-direction: column;
