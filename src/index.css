@@ -489,8 +489,10 @@ nav {
   align-items: start;
 }
 
+
 .first-mission-container {
   margin-top: -2em;
+  max-width: 1000px;
 }
 
 .first-mission-container h1 {
