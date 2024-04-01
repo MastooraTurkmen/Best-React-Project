@@ -1635,7 +1635,8 @@ textarea:focus,
 
   /* section 4 or 4th page */
   .section-4-right {
-    width: unset;
+    /* width: unset; */
+    max-width: 80vw;
   }
 
   .section-4-right-title {
@@ -1643,7 +1644,8 @@ textarea:focus,
   }
 
   .section-4-right p {
-    width: 70%;
+    /* width: 40%; */
+    width: unset;
   }
 
   /* section 5 or 5th page */
