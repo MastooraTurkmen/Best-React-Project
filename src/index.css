@@ -1644,8 +1644,8 @@ textarea:focus,
   }
 
   .section-4-right p {
-    /* width: 40%; */
-    width: unset;
+    width: 40%;
+    /* width: unset; */
   }
 
   /* section 5 or 5th page */
