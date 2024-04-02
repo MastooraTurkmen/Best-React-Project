@@ -22,7 +22,6 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.75;
-  /* overflow-x: hidden; */
 }
 
 h1,
@@ -1106,11 +1105,6 @@ textarea:focus,
 /* from section 3 to section 5 tablet */
 
 @media screen and (max-width: 1300px) {
-
-  body {
-    /* overflow-x: hidden; */
-  }
-
   .about-company,
   .about-us {
     padding: 2em;
@@ -1293,9 +1287,6 @@ textarea:focus,
 }
 
 @media screen and (max-width: 1050px) {
-  body {
-    /* overflow-x: hidden; */
-  }
 
   .nav-header img {
     width: 30px;
@@ -1573,14 +1564,9 @@ textarea:focus,
 /* from section 3 to section 5 mobile 750px */
 
 @media screen and (max-width: 750px) {
-
   .section-8-img2,
   .section-8-img1 {
     display: none;
-  }
-
-  body {
-    /* overflow-x: hidden; */
   }
 
   .about-company {
@@ -1844,6 +1830,10 @@ textarea:focus,
 
   .nav-header img {
     width: 40px;
+  }
+
+  .section-content {
+    margin-left: 1em;
   }
 
   .section-content-header {
