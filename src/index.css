@@ -22,7 +22,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.75;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 h1,
@@ -492,7 +492,7 @@ nav {
 
 .first-mission-container {
   margin-top: -2em;
-  max-width: 1000px;
+  /* max-width: 1000px; */
 }
 
 .first-mission-container h1 {
@@ -1108,7 +1108,7 @@ textarea:focus,
 @media screen and (max-width: 1300px) {
 
   body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
 
   .about-company,
@@ -1294,7 +1294,7 @@ textarea:focus,
 
 @media screen and (max-width: 1050px) {
   body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
 
   .nav-header img {
@@ -1368,6 +1368,21 @@ textarea:focus,
   /* section 4 or 4th page */
   .section-4-left img {
     display: none;
+  }
+
+  .section-4-right {
+    flex-basis: 90%;
+    width: unset;
+  }
+
+  /* 
+  .section-4-right-container {
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .section-4-left {
+    flex-basis: 10%;
   }
 
   .our-mission {
@@ -1565,7 +1580,7 @@ textarea:focus,
   }
 
   body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
 
   .about-company {
@@ -1637,7 +1652,6 @@ textarea:focus,
 
   /* section 4 or 4th page */
   .section-4-right {
-    /* width: unset; */
     max-width: 80vw;
   }
 
@@ -1645,9 +1659,16 @@ textarea:focus,
     font-size: 1.9rem !important;
   }
 
-  .section-4-right p {
-    width: 40%;
-    /* width: unset; */
+  .first-goal img {
+    width: 23px;
+  }
+
+  .first-goal h1 {
+    font-size: 1.1em;
+  }
+
+  .section-4-right-container {
+    max-width: 420px;
   }
 
   /* section 5 or 5th page */
@@ -1800,10 +1821,6 @@ textarea:focus,
     display: none;
   }
 
-  body {
-    overflow-x: hidden;
-  }
-
   .about {
     flex-direction: column;
   }
@@ -1873,7 +1890,6 @@ textarea:focus,
 
   .section-4-right p {
     font-size: .75rem;
-    width: 60%;
   }
 
   .section-4-right {
@@ -1890,6 +1906,10 @@ textarea:focus,
 
   .first-goal h1 {
     font-size: 1rem;
+  }
+
+  .section-4-right-container {
+    max-width: 380px;
   }
 
   /* section 5 or 5th page */
